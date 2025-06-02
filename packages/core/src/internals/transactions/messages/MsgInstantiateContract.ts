@@ -6,7 +6,7 @@ import { Coin } from "../../../internals/cosmos";
 
 export type MsgInstantiateContractValue = {
   sender: string;
-  admin: string;
+  admin?: string;
   codeId: string;
   label?: string;
   msg: any;
