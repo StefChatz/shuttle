@@ -59,7 +59,7 @@ export function prepareMessagesForInjective(messages: TransactionMsg[]): InjTran
 
         return InjMsgInstantiateContract.fromJSON({
           sender: instantiateMsg.value.sender,
-          admin: instantiateMsg.value.admin,
+          admin: instantiateMsg.value.admin ?? "",
           codeId: Number(instantiateMsg.value.codeId),
           label: instantiateMsg.value.label ?? "",
           msg: instantiateMsg.value.msg,
