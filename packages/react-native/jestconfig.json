@@ -1,0 +1,11 @@
+{
+  "preset": "react-native",
+  "testEnvironment": "node",
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "testMatch": ["**/tests/**/*.test.ts?(x)"],
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx"],
+  "collectCoverageFrom": ["src/**/*.{ts,tsx}", "!src/**/*.d.ts"]
+}
+

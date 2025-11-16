@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Shuttle Port Expo",
+    "slug": "shuttle-port-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.delphilabs.shuttleportexpo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.delphilabs.shuttleportexpo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "shuttleportexpo"
+  }
+}
+
